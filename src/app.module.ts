@@ -30,6 +30,7 @@ import { HomeModule } from './home/home.module';
 import { MtmaModule } from './mtm-simple-a/mtma.module';
 import { MtmbModule } from './mtm-bi-directional-b/mtmb.module';
 import { MtmModule } from './mtm/mtm.module';
+import { MtoModule } from './mto/mto.module';
 import { MtmcModule } from './mtm-properties-c/mtmc.module';
 
 @Module({
@@ -85,6 +86,7 @@ import { MtmcModule } from './mtm-properties-c/mtmc.module';
     MtmbModule,
     MtmModule,
     MtmcModule,
+    MtoModule,
   ],
 })
 export class AppModule {}

@@ -17,7 +17,7 @@ export class Categoryc extends EntityHelper {
   @Column()
   name: string;
 
-  @ManyToMany(() => Questionc, (Questionc) => Questionc.categories)
+  @ManyToMany(() => Questionc, (questionc) => questionc.categories)
   questions: Questionc[];
 
   @OneToMany(() => PostToCategory, (postToCategory) => postToCategory.categoryc)
