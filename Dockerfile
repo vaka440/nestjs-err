@@ -12,6 +12,6 @@ COPY ./startup.dev.sh /opt/startup.dev.sh
 
 WORKDIR /usr/src/app
 RUN rm -rf .env && cp env-example .env
-RUN npm run build
+#RUN npm run build
 
 CMD ["/bin/bash", "/opt/startup.dev.sh"]
